@@ -2,8 +2,8 @@
   .bg-cl-#{$key} { background-color: #{$value} !important; }
 };
 
-@each $key, $value in $color-value {
-  .bg-cl-#{$key}-hover { 
+@each $key, $value in $color-value-hover {
+  .bg-cl-#{$key} { 
     &:hover {
       background-color: #{$value} !important;
     }

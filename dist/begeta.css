@@ -20,5 +20,5 @@ You can even pass in values to make your mixin more flexible. A good use of a mi
 .bg-cl-primary {
   background-color: #f00 !important; }
 
-.bg-cl-primary-hover:hover {
-  background-color: #f00 !important; }
+.bg-cl-primary:hover {
+  background-color: #0f0 !important; }
