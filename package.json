@@ -1,17 +1,12 @@
 {
-  "name": "biomatic",
-  "version": "0.1.9",
-  "description": "A Flexible Atomic-Focused CSS Framework",
-  "main": "index.js",
+  "name": "begeta",
+  "version": "0.0.1",
+  "description": "Atomic css framework work with Bulma & Buefy",
   "directories": {
     "src": "src"
   },
   "scripts": {
     "build": "gulp build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BioMaRu/biomatic.git"
   },
   "keywords": [
     "css",
@@ -21,12 +16,11 @@
     "responsive",
     "component"
   ],
-  "author": "BioMaRu <Bio.Color.Palette@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BioMaRu/biomatic/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biigpongsatorn/begeta-prototype.git"
   },
-  "homepage": "https://bimatic-ui.com",
+  "author": "https://github.com/biigpongsatorn",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
