@@ -1,6 +1,6 @@
 {
-  "name": "begeta",
-  "version": "0.1.19",
+  "name": "begeta-prototype",
+  "version": "0.0.1",
   "description": "Atomic css framework work with Bulma & Buefy",
   "directories": {
     "src": "src"
@@ -22,9 +22,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sellsuki/begeta.git"
+    "url": "git+https://github.com/biigpongsatorn/begeta-prototype.git"
   },
-  "author": "https://github.com/Sellsuki",
+  "author": "https://github.com/biigpongsatorn",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
