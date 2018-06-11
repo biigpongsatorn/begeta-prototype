@@ -1,6 +1,14 @@
-# begeta-prototype
-begeta-prototype
+<p align="center">
+  <img src="logo-begeta.png">
+</p>
+# Begeta (Prototype)
 
-#install
-1. npm install || yarn
-2. npm run build || yarn build
+Atomic css prototype of [Begeta](https://github.com/Sellsuki/begeta)
+
+## How to use
+```sh
+npm install --save begeta-prototype
+```
+```js
+import 'begeta-prototype/css/begeta.min.css'
+```

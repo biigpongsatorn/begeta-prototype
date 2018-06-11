@@ -1,0 +1,39 @@
+@for $i from 0 through 10 {
+  .opct-#{$i * 10}  { opacity: #{$i / 10} !important; }
+};
+
+@include mobile {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-mobile  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include tablet {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-tablet  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include tablet-only {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-tablet-only  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include desktop {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-desktop  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include desktop-only {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-desktop-only  { opacity: #{$i / 10} !important; }
+  };
+};
+
+@include widescreen {
+  @for $i from 0 through 10 {
+    .opct-#{$i * 10}-widescreen  { opacity: #{$i / 10} !important; }
+  };
+};
